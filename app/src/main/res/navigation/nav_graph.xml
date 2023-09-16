@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/allCardsRvFragment">
+
+    <fragment
+        android:id="@+id/allCardsRvFragment"
+        android:name="com.example.myapplicationtarot_01_gamma_db.data.ui.allCardsRVFragm.AllCardsRvFragment"
+        android:label="fragment_all_cards_rv"
+        tools:layout="@layout/fragment_all_cards_rv" />
+</navigation>
